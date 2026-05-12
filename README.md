@@ -2,9 +2,7 @@
   Portfolio Website<br/>
 </h2>
 
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+## Built Withgit add
 
 This project was built using these technologies.
 
