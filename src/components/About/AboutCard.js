@@ -1,0 +1,46 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
+
+function AboutCard() {
+  return (
+    <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hi everyone! I’m <span className="purple">Candra</span>{" "}
+            from <span className="purple">Tulungagung, Jawa Timur</span>.
+            <br />
+            I’m currently working as a freelancer{" "}
+            <span className="purple">Website Developer and Graphic Designer</span>
+            <br />I'm an Informatics student at{" "}
+            <span className="purple">Bhinneka PGRI University</span>.
+            <br />
+            <br />
+            Outside of coding, I love engaging in activities that keep me
+            creative and inspired:
+          </p>
+
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Running and Hiking 🏃🏻‍♂️
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Fishing 🎣
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Traveling and Exploring Nature 🌍
+            </li>
+          </ul>
+
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p>
+          <footer className="blockquote-footer"></footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
+  );
+}
+
+export default AboutCard;
