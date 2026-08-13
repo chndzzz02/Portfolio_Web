@@ -9,6 +9,9 @@ import kasir3 from "../../Assets/Projects/kasir3.png";
 import kasir1 from "../../Assets/Projects/kasir1.png";
 import kasir2 from "../../Assets/Projects/kasir2.png";
 import keuangan from "../../Assets/Projects/keuangan.png";
+import crm1 from "../../Assets/Projects/crm1.png";
+import crm2 from "../../Assets/Projects/crm2.png";
+import crm3 from "../../Assets/Projects/crm3.png";
 
 function Projects() {
   return (
@@ -48,6 +51,15 @@ function Projects() {
               title="Point of Sale System"
               description="A modern point of sale system designed for retail businesses, featuring inventory management, sales tracking, and reporting. Built with Laravel Framework."
               ghLink="https://github.com/chndzzz02/sistem_kasir"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              images={[crm1, crm2, crm3]}
+              isBlog={false}
+              title="Customer Relationship Management (CRM)"
+              description="A comprehensive CRM solution for managing customer interactions, tracking sales, and analyzing customer data. Built with Laravel Framework."
+              ghLink="https://github.com/chndzzz02/CRM_SaaS"
             />
           </Col>
         </Row>
